@@ -1,0 +1,115 @@
+@font-face{font-family:futura pt;font-style:normal;font-weight:400;src:local('Futura PT'),url(https://fonts.cdnfonts.com/s/72205/FuturaCyrillicBook.woff) format('woff')}@font-face{font-family:futura pt;font-style:normal;font-weight:300;src:local('Futura PT'),url(https://fonts.cdnfonts.com/s/72205/FuturaCyrillicLight.woff) format('woff')}@font-face{font-family:futura pt;font-style:normal;font-weight:450;src:local('Futura PT'),url(https://fonts.cdnfonts.com/s/72205/FuturaCyrillicMedium.woff) format('woff')}@font-face{font-family:futura pt;font-style:normal;font-weight:500;src:local('Futura PT'),url(https://fonts.cdnfonts.com/s/72205/FuturaCyrillicDemi.woff) format('woff')}@font-face{font-family:futura pt;font-style:normal;font-weight:600;src:local('Futura PT'),url(https://fonts.cdnfonts.com/s/72205/FuturaCyrillicHeavy.woff) format('woff')}@font-face{font-family:futura pt;font-style:normal;font-weight:700;src:local('Futura PT'),url(https://fonts.cdnfonts.com/s/72205/FuturaCyrillicBold.woff) format('woff')}@font-face{font-family:futura pt;font-style:normal;font-weight:800;src:local('Futura PT'),url(https://fonts.cdnfonts.com/s/72205/FuturaCyrillicExtraBold.woff) format('woff')}
+
+body {
+  // font-family: 'Inconsolata';
+  // font-family: 'Futura PT', sans-serif;
+  // font-family: 'Roboto',sans-serif;
+  background-color: rgb(240, 240, 240);
+}
+
+.header {
+  font-family: 'Futura PT', sans-serif;
+  margin: 0 0 10px 0;
+}
+
+.progress {
+  background-color: rgb(255, 255, 255);
+  padding: 20px;
+  border-radius: 2px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.weekendTest {
+  display: flex;
+  margin-top: 18px;
+  justify-content: center;
+}
+
+.progressDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  justify-content: center;
+}
+
+.resultCircle {
+  padding: 10px;
+  margin-right: 10px;
+  border-radius: 100%;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.redText {
+  color: red;
+}
+
+.greenText {
+  color: green;
+}
+
+.redBackground {
+  background-color: red !important;
+}
+
+.greenBackground {
+  background-color: green !important;
+}
+
+.readMe {
+  background-color: rgb(227, 227, 227);
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 10px 100px 30px 100px;
+}
+
+.currentTest {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 200px;
+}
+
+.previousTests {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.previousTest {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  align-items: center;
+}
+
+.markdownDisplay {
+  background-color: #0D1116;
+  color: #c9d1d9;
+  border: 1px solid #30363D;
+  box-shadow: 2px 2px 2px rgb(146, 146, 146);
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  align-items: flex-start;
+}
+
+.css-i9fmh8-MuiBackdrop-root-MuiModal-backdrop {
+  background-color: rgba(0, 0, 0, 0.1) !important;
+}
+
+.test {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.css-s0w8ce {
+  border: none !important;
+}

@@ -1,0 +1,60 @@
+.instructorContent {
+  display: flex;
+  margin-top: 18px;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.filterInputs {
+  display: flex;
+}
+
+.css-s0w8ce {
+  width: 1000px !important;
+}
+
+// .MuiFilledInput-underline:after {
+//       border-bottom-color: 'rgb(255, 121, 97)' !important;
+// }
+.updateswitch {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    font-family: 'Futura PT', sans-serif;
+    .updateswitch-list {
+      list-style: none;
+      display: flex;
+      .updateswitch-list-item {
+        margin: 0 10px;
+        cursor: pointer;
+        position: relative;
+        font-size: 1.2em;
+      }
+      .updateswitch-list-item:before {
+        content: "";
+        position: absolute;
+        width: 0;
+        height: 2px;
+        bottom: 0;
+        left: 0;
+        background-color: rgb(255, 121, 97);
+        visibility: hidden;
+        transition: all 0.15s ease-in-out;
+      }
+      .updateswitch-list-item:hover:before {
+        visibility: visible;
+        width: 100%;
+      }
+      .updateswitch-list-item.active:before {
+        visibility: visible;
+        width: 100%;
+      }
+    }
+  }
+// .css-1ff8729-MuiInputBase-root-MuiFilledInput-root:after {
+//   border-bottom-color: 'rgb(255, 121, 97)' !important;
+//   border-bottom: red !important
+// }

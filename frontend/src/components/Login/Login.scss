@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap');
+
+body {
+  font-family: 'Inconsolata', monospace;
+  background-color: #f8f8f8;
+}
+
+span {
+  font-family: 'Inconsolata', monospace;
+  position: relative;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  bottom: 180px;
+  right: 0px;
+  animation: 3s content;
+}
+
+@keyframes content {
+  0% {
+    top: 250px;
+  }
+  75% {
+    top: 250px;
+  }
+  100% {
+    top: 0px;
+  }
+}
+
+.title {
+  animation: 3s ease 0s normal forwards 1 title;
+}
+
+@keyframes title {
+  0% {
+    opacity: 0;
+    transform: translate3d(0,40px,0);
+  }
+  80% {
+    opacity: 0;
+    transform: translate3d(0,40px,0);
+  }
+  100% {
+    opacity: 100;
+    transform: translate3d(0,0,0)
+  }
+}
+
+.login {
+  animation: 3.8s ease 0s normal forwards 1 login;
+}
+
+@keyframes login {
+  0% {
+    opacity: 0;
+  }
+  80% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+
+.loginForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.custom-type-animation-cursor::after {
+  content: '|';
+  top: -5px;
+  animation: cursor 1.1s infinite step-start;
+  position: absolute;
+}
+
+@keyframes cursor {
+  50% {
+    opacity: 0;
+  }
+}
+
+.loginButton {
+  background-color: black;
+}
+
+.loginButtonDiv {
+  display: flex;
+  width: 100%;
+}
+
+.googleIcon {
+  margin: 5px 10px 5px 0px;
+}

@@ -1,0 +1,108 @@
+@import url('https://fonts.cdnfonts.com/css/futura-pt');
+
+$main-color:rgb(255, 121, 97);
+*{
+    box-sizing: border-box;
+    margin:0 ;
+    padding: 0;
+}
+.main-profile-div{
+    display: flex;
+    flex-direction: row;
+    padding-left: 50px;
+    padding-top: 20px;
+    height: 66.66vh;
+
+}
+.Profile-dis-Part{
+    background-color: #f8f8f8;
+    padding:10px;
+    text-align:center;
+    
+    transition: 0.2s ease-in-out;
+    border: solid 1px transparent;
+    box-shadow: 0px 2px 1px -1px rgba(255,121,97), 0px 1px 1px 0px rgba(255,121,97), 0px 1px 3px 0px rgba(255,121,97);
+
+       height: 60vh;
+       width: 80%;
+       padding: 4px 2px;
+       margin: 20px 0!important;
+       color: white;
+       margin-right: 50px !important;
+                       border-radius: 2px;
+       border-radius: 2px;
+       .labelField{
+        text-align: left;
+        padding: 2px 40px;
+       }
+       .TextField{
+        width: 70%;
+        padding: 10px 0;
+       
+       }
+}
+
+    .Profile-image-Part{
+        margin: 20px 0px !important;
+     background-color: #f8f8f8;
+     padding:10px;
+     text-align:center;
+     
+     transition: 0.2s ease-in-out;
+     border: solid 1px transparent;
+     box-shadow: 0px 2px 1px -1px rgba(255,121,97), 0px 1px 1px 0px rgba(255,121,97), 0px 1px 3px 0px rgba(255,121,97);
+    
+        height: 60vh;
+        width: 30%;
+        padding: 4px 2px;
+        color: white;
+        margin-right: 50px !important;
+        border-radius: 2px;
+        border-radius: 2px;
+       
+        
+       
+        .image-container{
+            display: flex;
+            justify-content: space-around;
+            padding: 28px 0;
+            border-bottom: 1px #c6c3c3 solid;
+            overflow: scroll;
+            .image{
+                border-radius: 50%;
+            }
+        }
+        .info-container{
+            color: black;
+            display: flex;
+            flex-direction: column;
+            text-align: left;
+            padding-top: 10px;
+         
+            .button{
+                display: flex;
+                justify-content: space-around;
+               
+                padding-right: 15px;
+                flex-direction: column;
+            
+                      
+            }
+            .TextField{
+                padding: 15px 10px;
+            }
+
+           
+        }
+    
+    }
+    .margin{
+        margin-bottom: 15px!important;
+    }
+    .test{
+        padding: 20px 0;
+    } 
+
+    @media only screen and (max-width: 600px) {
+       
+      }

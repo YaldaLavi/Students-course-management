@@ -5,7 +5,7 @@ Salt Student Overview is a web application that shows the current progress of th
 
 Tech stack:
 
-Frontend: React
+Frontend: React / material ui
 Backend: Node.js / Express
 Database: PostgresSQL
 Google calendar Api, for adding the students calendar with the lecture times and google meet links etc.

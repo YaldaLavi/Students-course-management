@@ -16,9 +16,9 @@ Salt Student Overview is a web application that shows the current progress of th
 
 ## Tech Stack
 - **React:** React is a JavaScript library used for building user interfaces. We used React to develop the frontend of the application.
-- **Node.js :**Node.js is a cross-platform, open-source server environment that can run on Windows, Linux, Unix, macOS, and more. Node.js is a back-end JavaScript runtime environment, runs on the V8 JavaScript Engine, and executes JavaScript code outside a web browser
-- **Express :**Express.js, or simply Express, is a back end web application framework for building RESTful APIs with Node.js, released as free and open-source software under the MIT License. 
-- **PostgresSQL :**PostgreSQL, also known as Postgres, is a free and open-source relational database management system emphasizing extensibility and SQL compliance.
+- **Node.js:** Node.js is a cross-platform, open-source server environment that can run on Windows, Linux, Unix, macOS, and more. Node.js is a back-end JavaScript runtime environment, runs on the V8 JavaScript Engine, and executes JavaScript code outside a web browser
+- **Express:** Express.js, or simply Express, is a back end web application framework for building RESTful APIs with Node.js, released as free and open-source software under the MIT License. 
+- **PostgresSQL:** PostgreSQL, also known as Postgres, is a free and open-source relational database management system emphasizing extensibility and SQL compliance.
 
 ## External APIs
 - **Google Calendar API.:** I used the Google Calendar API for the event calender .
